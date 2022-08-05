@@ -1,0 +1,79 @@
+/* Element Selector - h1,p,span,div etc */
+/* h1 {
+    border: 1px solid red;
+}
+
+p {
+    color: brown;
+} */
+
+/* ID Selector - single element */
+/* #teach {
+    color: blue;
+}
+#testing-class{
+    background-color: pink;
+}
+#testing {
+    color: red;
+} */
+
+/* Class Selector */
+/* .Web {
+    color: aqua;
+}
+
+.Mobile {
+    color: green;
+}
+
+.amazing-bg{
+    background-color: yellow;
+} */
+
+/* CSS Specificity */
+/* tag < class < id < inine css < important */
+/* div {
+    color: gold;
+}
+
+.spec {
+    color: purple !important;
+}
+
+#good {
+    color: olive;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    color: #6dcf1a78;
+    background-color: lime;
+    /* border: 3px solid green ; */
+    border-radius: 10px ;
+    /* -webkit-text-stroke: 1px red; */
+    /* 
+        x - horizontal axis
+        y - vertical axis
+    */
+    box-shadow: -2px -2px 4px 3px grey ;
+    text-shadow: 1px 0px 0px black;
+    border: 33px solid transparent;
+    /* border-image: url("https://i.stack.imgur.com/baEaT.png") 33 repeat; */
+
+
+    /* padding: 40px;
+    margin: 40px; */
+
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 20px;
+    border-bottom: 1px solid black;
+    max-width: 100px;
+    
+}
+
