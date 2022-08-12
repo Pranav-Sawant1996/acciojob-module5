@@ -5,11 +5,16 @@
     font-family: 'Poppins', sans-serif !important;
 }
 
+:root {
+    --major-color: #ff4b67;
+    --major-color-hover: #ff647b;
+}
+
 /* SECTION 1 */
 .Section1{
     width: 100%;
-    height: 80vh;
-    background-color: #ff4b67;
+    /* height: 720px; */
+    background-color: var(--major-color);
 }
 .Section1 .logo-text {
     font-size: 50px;
@@ -22,6 +27,72 @@
     width: 100%;
     height: 100%;
 }
+.Banner .BannerLeft {
+    width: 50%;
+}
+.Banner .BannerLeft h1{
+    font-size: 50px;
+    color: white;
+}
+.Banner .BannerLeft .DownloadButtons button {
+    margin-right: 20px;
+}
+.Banner .BannerLeft .DownloadButtons button svg {
+    width: 14px;
+}
+.Section1 .Banner .BannerRight {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
 .Section1 .Banner .BannerRight img{
-    width: 25vw;
+    width: 200px;
+    /* new */
+    transform: rotate(10deg);
+    transition: 0.5s;
+}
+@media screen and (max-width: 992px) {
+    .Section1 .Banner .BannerRight img{
+        transform: rotate(0deg);
+        transition: 0.5s;
+    }
+}
+
+/* SECTION 2 */
+.section-2 {
+    width: 100%;
+    padding: 80px 0;
+    padding: 50px 0;
+}
+.section-2-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-2-item svg {
+    color: var(--major-color);
+    width: 64px;
+}
+.section-2-item svg:hover {
+    color: var(--major-color-hover);
+    transition: 0.3s;
+}
+
+/* SECTION 3 */
+.section-3 {
+    background-color: var(--major-color-hover);
+}
+.section-3 .UserTestimonial img{
+    width: 80px;
+    border-radius: 50%;
+}
+
+/* SECTION 5 */
+.section-5 {
+    background-color: var(--major-color-hover);
+}
+.section-5-buttons svg {
+    width: 14px;
+    
 }
